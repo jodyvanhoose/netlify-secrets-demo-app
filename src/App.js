@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <p>
-        <button onClick={getNewTodo}> Get another todo </button>
+        <button onClick={getNewTodo}> Get another todo! </button>
       </p>
       <p>{loading ? "Loading..." : todo}</p>
     </div>
